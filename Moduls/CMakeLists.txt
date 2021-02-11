@@ -1,0 +1,5 @@
+add_subdirectory(MainWindow)
+add_subdirectory(Sensor)
+add_subdirectory(Printer)
+add_subdirectory(Commander)
+add_subdirectory(Serial)
