@@ -111,8 +111,6 @@ void STLObjectMeasurementWorker::run(const std::vector<std::string> &args)
 
     m_steps = m_position_reader.count_lines();
 
-  //  emit command("sensor --change settings averaging=" + m_config.samples_per_step);
-
     m_is_running = true;
 
     printer_on_position(m_printer_position);
